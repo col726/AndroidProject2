@@ -1,0 +1,15 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity">
+    <item android:title="@string/action_save"
+        android:icon="@drawable/ic_save_dark"
+        android:id="@+id/action_save"
+        app:showAsAction="ifRoom"
+        android:orderInCategory="50"/>
+    <item android:title="@string/action_cancel"
+        android:icon="@drawable/ic_cancel_dark"
+        android:id="@+id/action_cancel"
+        app:showAsAction="ifRoom"
+        android:orderInCategory="75"/>
+</menu>

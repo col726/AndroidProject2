@@ -1,0 +1,30 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:divider="?android:attr/dividerHorizontal"
+    android:orientation="horizontal"
+    android:showDividers="middle"
+    tools:context=".MainActivity">
+
+    <fragment
+        android:id="@+id/contact_list_fragment"
+        android:name="mckenna.colin.mckennacolinhw2.ContactListFragment"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="2"
+        tools:layout="@android:layout/list_content"/>
+
+    <fragment android:id="@+id/contact_view_fragment"
+        android:name="mckenna.colin.mckennacolinhw2.ViewContactFragment"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="3" />
+
+    <fragment android:id="@+id/contact_edit_fragment"
+        android:name="mckenna.colin.mckennacolinhw2.EditContactFragment"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="3" />
+
+</LinearLayout>
